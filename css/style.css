@@ -1,0 +1,91 @@
+/* body css */
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-color: hsl(0deg 0% 7.84%);
+
+}
+    /* start main css */
+main{
+        
+    background:linear-gradient(hsl(0deg 0% 12.16%), rgba(255, 255, 255, 0.521)) ;
+    text-align: center;
+    margin: 4% 35% 0%;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+main h1{
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+main h2{
+    
+    font-size: medium;    
+    color: hsl(72.15deg 68.7% 54.9%);
+}
+
+main p{
+    
+    color: white;
+    margin-top:8% ;
+    
+}
+    /* End main css */
+
+    /* start section css */
+section{
+        
+    margin-top: 10%;
+        
+}
+    
+section a{
+
+    display: block;
+    color: white;
+    background-color: hsl(0deg 0% 20%);
+    text-decoration: none;
+    margin-top: 5%;
+    padding: 3.5% 0%;
+    border-radius: 10px;
+    
+}
+    
+section a:hover{
+        
+    background-color: hsl(75.2deg 96.51% 55.1%);
+    color: black;
+}
+    
+img{
+    
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+    /* End section css */
+
+@media only screen and (max-width:390px){
+
+        main{
+            margin: 28% 8% 0%;
+            padding: 10% 5%;
+        }
+
+    }
+
+@media only screen and (max-width:768px){
+
+    main{
+
+    margin: 20% 21% 0%;
+    padding: 8% 5%;
+    
+    }
+
+}
